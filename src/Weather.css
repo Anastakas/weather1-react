@@ -1,0 +1,54 @@
+.Weather .units .active {
+  cursor: default;
+}
+.Weather h1,
+.Weather h2,
+.Weather li,
+.Weather .main {
+  color: #ffff;
+}
+.Weather .list-options {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.Weather .options-value {
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+.Weather .btn-primary {
+  background-color: #ffff;
+  border-color: #ced4da;
+  color: #6c757d;
+}
+.Weather .btn-primary.w-100:hover {
+  background-color: #2aa3e9;
+  border: 1px solid #ffff;
+}
+
+.Weather {
+  padding: 40px 20px 5px 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #2aa3e9;
+}
+
+.Weather .main strong {
+  font-size: 56px;
+
+  padding-top: 8px;
+}
+.Weather .illustr {
+  margin-left: -10px;
+}
+.Weather .units {
+  margin: 22px 0 0 5px;
+}
+.Weather .description {
+  font-size: 18px;
+  margin: 19px 0 0 20px;
+}
+.Weather .description::first-letter {
+  text-transform: capitalize;
+}
