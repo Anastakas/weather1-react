@@ -4,6 +4,7 @@
 .Weather h1,
 .Weather h2,
 .Weather li,
+.Weather a,
 .Weather .main {
   color: #ffff;
 }

@@ -11,7 +11,7 @@ export default function Weather() {
     setWeather({
       name: response.data.name,
       temperature: Math.round(response.data.main.temp),
-      wind: response.data.wind.speed,
+      wind: Math.round(response.data.wind.speed),
       pressure: response.data.main.pressure,
       humidity: response.data.main.humidity,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
@@ -88,6 +88,16 @@ export default function Weather() {
             <li className="options">Wind: {weather.wind} km/h</li>
           </ul>
         </div>
+      </div>
+      <div className="footer">
+        <a
+          href="https://github.com/Anastakas/weather1-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-sourse code
+        </a>{" "}
+        by <a href="mailto:kasilova@gmail.com">Anastasiya kasilova</a>
       </div>
     </div>
   );
